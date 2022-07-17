@@ -33,8 +33,13 @@
 
 <br />
 
-## PMOS Low Drop out Regulator (LDO)
-- The LDO regulator has an output regulated voltage of 2V and begins dropping out at 2.8V input voltage, the range of the dropout region is between 1.69V and 2.8V input voltage at a max load current of 400uA.
+## PMOS Low Dropout Regulator (LDO)
+![image](https://user-images.githubusercontent.com/84563214/179405309-d4e35dfa-12ef-482e-9c9d-ced870ab43fd.png)
+
+- The LDO regulator has an output regulated voltage of 2V and begins dropping out at 2.48V input voltage, the range of the dropout region is between 1.69V and 2.48V input voltage at a max load current of 400uA. 
+ ###
+    Dropout Voltage = Vdd - Vout
+- Dropout Voltage at 400uA is 483mV and Dropout Voltage at 10uA is 30mV, so Dropout Voltage is directly proportional to Load current.
 <br />
 
 ### DC Sweep of load current (1uA to 500uA)
@@ -44,7 +49,7 @@
 
 ### DC Sweep of Vdd (0V to 10V) at 400uA
 ![image](https://user-images.githubusercontent.com/84563214/179403659-229ba8f7-6d3c-45bf-8ba9-668c0b7e352a.png)
-![image](https://user-images.githubusercontent.com/84563214/179403361-8b607849-4f32-4417-ad82-d16e1736fc1d.png)
+![image](https://user-images.githubusercontent.com/84563214/179405009-a8fac97f-67e0-49b2-956b-3e77eb774883.png)
 
 <br />
 
