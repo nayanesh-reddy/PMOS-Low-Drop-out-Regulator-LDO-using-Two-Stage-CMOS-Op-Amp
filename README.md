@@ -1,11 +1,9 @@
 # PMOS Low Drop out Regulator (LDO) using Two Stage CMOS Op Amp
 
 - TSMC 180 nm technology is used and designed in LTspice. 
-- Overall LDO regulator has an output regulated voltage of 2V and begins dropping out at 2.47V input voltage, the range of the dropout region is between 1.69V and 2.47V input voltage at a max load current of 400uA
 
 <br />
 <br />
-
 
 ## Two Stage CMOS Op Amp
 - Two-Stage CMOS Op-Amp has DC Gain 78.8 dB, 3dB frequency 7.11 KHz, Unit gain bandwidth 66.21 MHz, Phase Margin 65.15 degree.
@@ -34,4 +32,23 @@
 ![image](https://user-images.githubusercontent.com/84563214/179399936-203508ce-0631-47ac-b49c-493595519560.png)
 
 <br />
+
+## PMOS Low Drop out Regulator (LDO)
+- The LDO regulator has an output regulated voltage of 2V and begins dropping out at 2.8V input voltage, the range of the dropout region is between 1.69V and 2.8V input voltage at a max load current of 400uA.
+<br />
+
+### DC Sweep of load current (1uA to 500uA)
+![image](https://user-images.githubusercontent.com/84563214/179402659-7e30c009-d97e-4731-b23b-d46dbedf5aeb.png)
+
+<br />
+
+### DC Sweep of Vdd (0V to 10V) at 400uA
+![image](https://user-images.githubusercontent.com/84563214/179403659-229ba8f7-6d3c-45bf-8ba9-668c0b7e352a.png)
+![image](https://user-images.githubusercontent.com/84563214/179403361-8b607849-4f32-4417-ad82-d16e1736fc1d.png)
+
+<br />
+
+### Vout for Vdd ripple (2.5V ± 10mV) at 400uA
+![image](https://user-images.githubusercontent.com/84563214/179403813-4452e3bb-d274-4e10-a35e-2e9e2352d0c4.png)
+
 
